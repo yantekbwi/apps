@@ -4,13 +4,13 @@ Aplikasi Web Apps ini dibuat dengan :
 A. Google Apps Script
 B. Google Sheet (database)
 
-A. Google Apps Script
+**A. Google Apps Script**
 Dikarenakan keterbatasan pada Google Apps Script yang tidak bisa menangani reload page (terbatas), maka aplikasi prototype ini dibangun dengan metode  Single Page Apps (SPA) sehingga page yang saya sebut sebagai module (multipage) dan tentunya seluruh proses terhadap interaksi user tanpa reload page ini mampu ditangani.
 
-B. Google Sheet
+**B. Google Sheet**
 Saya menggunakan Google Sheet sebagai database, dari video dapat dipastikan saya menggunakan banyak file (16) untuk menghandle tiap module.
 
-Library Eksternal
+**Library Eksternal**
 Library yang saya gunakan : 
 Tailwind CSS : Layout
 sweetAlert : Loading, popup
@@ -20,7 +20,7 @@ Chart.js : Chart
 html2canvas : Camera & Compress image
 jspdf : save to Pdf
 
-Module : 
+**Module : **
 1. SMPT : Sistem Manajemen Pesan (berkirim pesan antar user)
 2. SMAP : Sistem Absensi Pegawai (Absensi Selfi, koordinat, tolerance)
 3. SMPP : Sistem Manajemen Performa Pegawai (KPI)
@@ -38,7 +38,7 @@ Module :
 15. FGTM : Frekuensi Gangguan TM (Logbook, Recap, Graph)
 16. MODAR : Monitoring Kendaraan (Asset, Surat, Service)
  
-User Role 
+**User Role **
 1. Superadmin (all page master, read, upload, edit, add, delete )
 2. Admin (all page, read, upload, edit)
 3. SPV, Koordinator (unit page, read, add)
